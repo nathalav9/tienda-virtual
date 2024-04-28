@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE699"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR LIBRO"
+            android:textAlignment="textStart"
+            android:textColor="#7458485A"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50px"
+            android:background="#DCC49F"
+            android:text="CATÁLOGO"
+            android:textAlignment="center"
+            android:textColor="#3A3422"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="301dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="222dp"
+                        android:layout_height="121dp"
+                        android:layout_weight="1"
+                        tools:src="@drawable/libro1" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="50px"
+                        android:layout_weight="1"
+                        android:background="#DCC49F"
+                        android:text="Crimen y castigo"
+                        android:textAlignment="center"
+                        android:textColor="#3A3422"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="50px"
+                        android:layout_weight="1"
+                        android:background="#DCC49F"
+                        android:text="$ 45.000"
+                        android:textAlignment="center"
+                        android:textColor="#3A3422"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="145dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="129dp"
+                        android:layout_weight="1"
+                        tools:src="@drawable/libro2" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="158dp"
+                        android:layout_height="29dp"
+                        android:layout_margin="50px"
+                        android:layout_weight="1"
+                        android:background="#DCC49F"
+                        android:text="Cien años de soledad"
+                        android:textAlignment="center"
+                        android:textColor="#3A3422"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp"
+                        android:layout_margin="50px"
+                        android:layout_weight="1"
+                        android:background="#DCC49F"
+                        android:text="$ 120.000"
+                        android:textAlignment="center"
+                        android:textColor="#3A3422"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="222dp"
+                    android:layout_height="134dp"
+                    android:layout_weight="1"
+                    tools:src="@drawable/libro_3" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="50px"
+                    android:layout_weight="1"
+                    android:background="#DCC49F"
+                    android:text="La peste"
+                    android:textAlignment="center"
+                    android:textColor="#3A3422"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="50px"
+                    android:layout_weight="1"
+                    android:background="#DCC49F"
+                    android:text="$ 55.000"
+                    android:textAlignment="center"
+                    android:textColor="#3A3422"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="147dp"
+                        android:layout_weight="1"
+                        tools:src="@drawable/libro_4" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="158dp"
+                        android:layout_height="37dp"
+                        android:layout_margin="50px"
+                        android:layout_weight="1"
+                        android:background="#DCC49F"
+                        android:text="Relato de un asesino"
+                        android:textAlignment="center"
+                        android:textColor="#3A3422"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:layout_margin="50px"
+                        android:layout_weight="1"
+                        android:background="#DCC49F"
+                        android:text="$ 43.000"
+                        android:textAlignment="center"
+                        android:textColor="#3A3422"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
